@@ -291,7 +291,6 @@ footer ul li a{
     text-align: left;
 }
 
-/* contact */
 #contact {
     margin: 0 auto;
     padding: 24px 0 0;
@@ -328,4 +327,99 @@ footer ul li a{
 #send:hover {
     background: white;
     color: #252525;
+}
+
+
+/* rwd */
+
+@media (max-width: 550px){
+    .logo {
+        width: 203px;
+        height: 113px;
+    }
+    .header nav ul{
+        text-align: center;
+    }
+    .header nav ul li {
+        display: block;
+        padding: 5px 0;
+        width:100%;
+    }
+
+    #home .items ul li {
+        display: block;
+    }
+    #home .cover {
+        height: 290px;
+    }
+    #home .subject {
+       display: none;
+    }
+
+    #blog .articles{
+        float: none;
+
+    }
+    #blog .articles p {
+       display: none;
+    }
+    #blog .articles li {
+      width: 400px;
+      float: none;
+    }
+
+    #blog .articles .photo {
+        width: 100%;
+        float: none;
+    }
+    #blog .article {
+        /* width: 550px; */
+        width: 100%;
+        float: none;
+        height: 200px;
+        text-align: center;
+        padding-top: 50px;
+        /* box-sizing: border-box; */
+    }
+
+    #gallery .items{
+        width: 100%;
+    }
+    #gallery ul{
+        display: flex;
+        flex-direction: column;
+    }
+    #gallery ul li{
+        display: block;
+    }
+    #gallery li .photo{
+      width: 400px;
+      height: 200px;
+    }
+
+    #about {
+        padding: 10px;
+    }
+
+    #about p {
+        width: 100%;
+    }
+
+    #about .about_cover {
+        width: 100%;
+    }
+
+    #single-gallery img {
+        width: 100%;
+    }
+    #single-gallery p {
+        width: 100%;
+    }
+    #single-blog img {
+        width: 100%;
+    }
+    #single-blog p {
+        width: 100%;
+    }
+
 }
