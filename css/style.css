@@ -397,7 +397,7 @@ footer ul li a{
       height: 200px;
     }
 
-    #about {
+    #about, #single-gallery, #single-blog {
         padding: 10px;
     }
 
