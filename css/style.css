@@ -421,5 +421,8 @@ footer ul li a{
     #single-blog p {
         width: 100%;
     }
+    footer { 
+        margin-top: 10px;
+    }
 
 }
