@@ -294,7 +294,7 @@ footer ul li a{
 #contact {
     margin: 0 auto;
     padding: 24px 0 0;
-    width: 620px;
+    max-width: 620px;
     text-align: center;
 }
 #contact input[type='text'], #contact textarea{
@@ -307,7 +307,7 @@ footer ul li a{
     padding: 20px 10px;
     text-align: center;
     text-transform: uppercase;
-    width: 596px;
+    width: 90%;
 }
 
 #send {
